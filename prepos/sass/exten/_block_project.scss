@@ -1,0 +1,24 @@
+.block--project {
+    margin: 6rem 2rem;
+    padding-top: 2rem;
+    .block--project__text {
+        .block--project__text-title {
+            h2 {
+                font-size: $fontS3;
+                text-align: center;
+                color: $color-primary;
+            }
+            .line--two {
+                width: 280px;
+                right: -33%;
+                @include line1;
+            }
+        }
+        .block--project__text-p {
+            p {
+                text-align: center;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,18 @@
+.block--contact {
+    background: $color-secondary;
+    .container-fluid {
+        margin: 3rem 0;
+        padding: 2rem;
+        .form__title {
+            color: $color-lighting;
+            text-align: center;
+            a {
+                color: $color-primary;
+                &:hover {
+                    color: $color-lighting;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

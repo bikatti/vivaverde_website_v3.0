@@ -1,0 +1,54 @@
+// colors
+$color-primary: #204F4A;
+$color-secondary: #00B53C;
+$color-variation: #17E8D3;
+$color-alert: #be306a;
+$color-lighting: #fefeff;
+
+// fonts
+$font1: 'Noto Sans', sans-serif;
+$font2: 'Source Sans Pro', sans-serif;
+
+// font-size
+$fontS1: 15px;
+$fontS2: 20px;
+$fontS3: 50px;
+
+// Shadow
+$shadow1: -1.8px 4.7px 32.7px 5.3px rgba(39, 92, 20, 0.22);
+$shadow2: -22.6px 58.8px 122px 0 rgba(39, 92, 20, 0.13);
+
+// Logo sizes
+@mixin logolg {
+    margin-left: 15px;
+    width: 220px;
+}
+
+// Lines
+@mixin line1 {
+    border-top: 4px solid $color-secondary;
+    position: relative;
+    padding-top: 2rem;
+}
+
+// Buttons
+.btn.btn-primary {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    padding: 5px 15px;
+    border-radius: 1.5rem;
+    // border-block-color: $color-secondary;
+    border-color: $color-secondary;
+    background-color: $color-secondary;
+}
+
+// paragraph
+p {
+    font-family: $font1;
+    font-size: $fontS1;
+    color: $color-primary;
+}
+
+h1, h2, h3, h4 ,h5, h6 {
+    font-family: $font2;
+}

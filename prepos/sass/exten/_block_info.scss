@@ -1,0 +1,105 @@
+.block--info {
+    background: $color-lighting;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* height: 750px; */
+    padding: 8rem 2rem;
+    /* padding-bottom: 3rem; */
+    position: relative;
+    margin-bottom: 3rem;
+    .block--info__img {
+        .img--info__left-1 {
+            box-sizing: border-box;
+            img {
+                position: absolute;
+                width: 40%;
+                left: -12%;
+                top: 60px;
+            }
+        }
+    }
+    .container-fluid .block--info__back {
+        background-color: $color-secondary;
+        height: 580px;
+        z-index: 0;
+        color: $color-lighting;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .block--info__text-right {
+            h2 {
+                font-family: $font2;
+                font-size: $fontS3;
+            }
+            p {
+                color: $color-lighting;
+            }
+            .line--one {
+                border-top: 4px solid $color-lighting;
+                width: 200px;
+                position: relative;
+                right: -1rem;
+                top: -.8rem;
+                padding-top: .5rem;
+            }
+        }
+        .border--img img{
+            height: 80px;
+            width: 80px;
+            border-radius: 40px;
+            margin: 1rem;
+        }
+    }
+    .block--info__text-left {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        padding-top: 1.5rem;
+        .text-left {
+            margin: 1.5rem;
+            margin-left: 2rem;
+            margin-bottom: 0;
+            color: $color-primary;
+            .line--two {
+                width: 200px;
+                right: 1rem;
+                @include line1;
+            }
+        }
+    }
+    .block--info__block-right {
+        position: relative;
+        /* margin-bottom: 5%; */
+        /* height: 200px; */
+     .block--container {
+        position: absolute;
+        width: 415px;
+        height: 570px;
+        bottom: -130px;
+        z-index: 2;
+        right: 0;
+        background: $color-lighting;
+        box-shadow: $shadow1;
+        .block--info__block-right-text {
+            margin: 1.5rem;
+            color: $color-primary;
+            h2 {
+                padding-top: 1rem;
+                font-size: $fontS3 - 5;
+            }
+            .line--two {
+                width: 250px;
+                right: -5rem;
+                @include line1;
+            }
+            .btn.btn-primary {
+                background: $color-primary;
+                border-color: $color-primary;
+                font-size: $fontS2;
+            }
+        }
+     }
+    }
+}

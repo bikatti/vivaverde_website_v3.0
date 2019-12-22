@@ -1,0 +1,11 @@
+-var nameBrand = "vivaverde"
+mixin projectBox(images,name,title,subtitle)
+ .carousel-item-mon
+  img(class="carousel-item__img", src="img/photos_product/"+images, alt="project"+name)
+  .carousel-item__details
+   div
+    img(class="carousel-item__details--img", src="img/photos_product/"+images, alt="Play icon")
+    img(class="carousel-item__details--img", src="img/photos_product/"+images, alt="Plus icon")
+   h3(class="carousel-item__details--title")=title
+   p(class="carousel-item__details--subtitle")=subtitle
+  .line--vertical
