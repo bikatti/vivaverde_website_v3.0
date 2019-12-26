@@ -1,0 +1,21 @@
+include exten/code.pug
+<!DOCTYPE html>
+html(lang="en")
+ include exten/head.pug
+ body
+  // menu
+  include exten/header.pug
+
+  // hero
+  +heroArt("001","text-center","Hola, como estan?")
+
+  // text
+  section.text
+   .container
+    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nihil incidunt doloribus, provident consequuntur quo perferendis omnis, tempora officia illo enim quia ratione earum iusto in ullam dolorem, nemo temporibus.
+
+  // contact
+  include exten/contact.pug
+
+  // footer
+  include exten/footer.pug

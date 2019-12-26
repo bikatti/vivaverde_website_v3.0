@@ -7,7 +7,7 @@ html(lang="en")
   include exten/header.pug
 
   // hero - index
-  section.hero
+  section.hero--index
    .container
     .hero--title
      .hero--title__text
@@ -32,11 +32,7 @@ html(lang="en")
       .block--info__text-right.col-sm-7.col-md-6.text-left.offset-md-4.offset-sm-3
        h2 Misión
        .line--one
-       p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ipsum augue, congue in egestas placerat, euismod eu purus. Curabitur laoreet scelerisque viverra. Integer bibendum sapien ac ex ultricies eleifend. Duis at lorem a nunc convallis accumsan.
-       | Ulla imperdiet, odio a pellentesque varius, lorem magna tempor arcu, ut vestibulum risus nibh non libero. Cras in ipsum quis ante egestas viverra at sit amet magna. Mauris elementum posuere erat.
-       br
-       br
-       p Cras gravida arcu nisl, sit amet placerat justo dignissim sed. Donec in metus faucibus, pretium arcu tempor, iaculis risus.
+       p En Vivaverde estamos comprometidos con la elaboración y ejecución de proyectos agroecológicos, que garanticen un equilibrio armónico con el medio ambiente y la producción. Prestamos servicios de elaboración y ejecución de proyectos, así como asesoramos y  capacitamos a otras empresas y profesionales para el desarrollo de proyectos  agroecológicos en  las siguientes áreas: Agricultura ecológica, Urbanismos ecológicos, Casas ecológicas, Turismo ecológico, Alternativas de  reciclaje, Alternativas energéticas, Paisajismo urbano, Campos deportivos,  ... 
       .col-md-1.col-sm-1
        .border--img
         img(src="img/photos_product/004_rev1.jpg", alt="img_radius")
@@ -73,10 +69,10 @@ html(lang="en")
    .container-fluid
     .block--text-services__back
      .row
-      .block--text-services__img-left
-       .img--info__left-2
+      .block--text-services__img-right
+       .img--info__right-2
         img(src="img/photos_product/004_rev1.jpg", alt="img_radius")
-      .img--right-2.col-3
+      .img--left-2.col-3
        img(src="img/photos_product/001_rev1.jpg", alt="img_radius")
       .block--text-services__text-right.col-6.offset-2
        h2 Hola, como estas?
@@ -97,7 +93,7 @@ html(lang="en")
          .border--img
           img(src="img/photos_product/004_rev1.jpg", alt="img_radius")
           span Lorem ipsum core irure
-      .block--text-services__answer.col-4
+      .block--text-services__answer.col-5
        div(class="tab-content", id="nav-tabContent")
         div(class="tab-pane fade show active", id="list-home", role="tabpanel", aria-labelledby="list-home-list")
          p Irure enim occaecat labore sit qui aliquip reprehenderit amet velit. Deserunt ullamco ex elit nostrud ut dolore nisi officia magna sit occaecat laboris sunt dolor. Nisi eu minim cillum occaecat aute est cupidatat aliqua labore aute occaecat ea aliquip sunt amet. Aute mollit dolor ut exercitation irure commodo non amet consectetur quis amet culpa.

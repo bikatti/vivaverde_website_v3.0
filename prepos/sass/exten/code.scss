@@ -4,6 +4,7 @@ $color-secondary: #00B53C;
 $color-variation: #17E8D3;
 $color-alert: #be306a;
 $color-lighting: #fefeff;
+// 1 #00B53C 2 #029e35 variation
 
 // fonts
 $font1: 'Noto Sans', sans-serif;
@@ -17,6 +18,15 @@ $fontS3: 50px;
 // Shadow
 $shadow1: -1.8px 4.7px 32.7px 5.3px rgba(39, 92, 20, 0.22);
 $shadow2: -22.6px 58.8px 122px 0 rgba(39, 92, 20, 0.13);
+
+// Breakpoints
+$breakXl: 1200px;
+$breakLg: 992px;
+$breakMd: 768px;
+$breakSm: 576px;
+$breakXs: 425px;
+$breakXxs: 375px;
+$break0: 320px;
 
 // Logo sizes
 @mixin logolg {

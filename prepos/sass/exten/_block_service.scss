@@ -5,25 +5,25 @@
     .block--text-services__back {
         margin: 8rem 0;
         height: 700px;
-        box-shadow: $shadow2;
+        box-shadow: $shadow1;
         background: $color-lighting;
         display: flex;
         align-items: center;
         justify-content: center;
-        .block--text-services__img-left {
+        .block--text-services__img-right {
             width: 100%;
             height: 100%;
             overflow: hidden;
             flex-shrink: 0;
-            .img--info__left-2 {
+            .img--info__right-2 {
                 margin: 0%;
-                right: 0;
-                bottom: -90px;
-            position: absolute;
+                right: 25px;
+                bottom: -80px;
+                position: absolute;
                 img {
                     object-fit: cover;
-                    width: 220px;
-                    height: 350px;
+                    width: 320px;
+                    height: 320px;
                 }
             }
         }
@@ -37,7 +37,7 @@
                 @include line1;
             }
         }
-        .img--right-2 {
+        .img--left-2 {
             img {
                 width: 100%;
                 margin-left: 5rem;
@@ -60,6 +60,9 @@
             margin: 1.5rem;
             display: flex;
             align-items: center;
+            div.tab-content {
+                padding-right: 1rem;
+            }
         }
         .list-group-item {
             border: none;
